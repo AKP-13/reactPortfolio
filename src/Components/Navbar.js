@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/navbar.css";
 
 class Navbar extends Component {
@@ -19,35 +20,49 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <NavLink
+                                className="nav-link"
+                                to="/"
+                                activeClassName="current"
+                            >
                                 Home
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a
+                            <NavLink
                                 className="nav-link"
-                                href="photography/photography.html"
+                                to="/photography"
+                                activeClassName="current"
                             >
                                 Photography
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a
+                            <NavLink
                                 className="nav-link"
-                                href="projects/projects.html"
+                                to="/projects"
+                                activeClassName="current"
                             >
                                 Projects
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="about/about.html">
+                            <NavLink
+                                className="nav-link"
+                                to="/about"
+                                activeClassName="current"
+                            >
                                 About
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="contact/contact.html">
+                            <NavLink
+                                className="nav-link"
+                                to="/contact"
+                                activeClassName="current"
+                            >
                                 Contact
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>
