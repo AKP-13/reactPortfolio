@@ -1,6 +1,15 @@
 import React, { Component } from "react";
 import "../styles/photography.css";
 
+import { Icon, InlineIcon } from "@iconify/react";
+import flagForMalaysia from "@iconify-icons/emojione/flag-for-malaysia";
+import flagForSingapore from "@iconify-icons/emojione/flag-for-singapore";
+import flagForIndonesia from "@iconify-icons/emojione/flag-for-indonesia";
+import flagForCambodia from "@iconify-icons/emojione/flag-for-cambodia";
+import flagForVietnam from "@iconify-icons/emojione/flag-for-vietnam";
+import flagForLaos from "@iconify-icons/emojione/flag-for-laos";
+import flagForThailand from "@iconify-icons/emojione/flag-for-thailand";
+
 // function handleClick(e) {
 //     console.log(e.nativeEvent.path[0].childNodes[0].innerText);
 // }
@@ -38,7 +47,10 @@ class Photography extends Component {
                             this.setState({ Malaysia: !this.state.Malaysia })
                         }
                     >
-                        <h3>Malaysia</h3>
+                        <h3>
+                            <InlineIcon icon={flagForMalaysia} />
+                            Malaysia
+                        </h3>
                     </div>
                     <div
                         className={
@@ -54,7 +66,10 @@ class Photography extends Component {
                             this.setState({ Singapore: !this.state.Singapore })
                         }
                     >
-                        <h3>Sinagpore</h3>
+                        <h3>
+                            <InlineIcon icon={flagForSingapore} />
+                            Sinagpore
+                        </h3>
                     </div>
                     <div
                         className={this.state.Bali ? "panel active" : "panel"}
@@ -68,7 +83,10 @@ class Photography extends Component {
                             this.setState({ Bali: !this.state.Bali })
                         }
                     >
-                        <h3>Bali</h3>
+                        <h3>
+                            <InlineIcon icon={flagForIndonesia} />
+                            Bali
+                        </h3>
                     </div>
                     <div
                         className={
@@ -84,7 +102,10 @@ class Photography extends Component {
                             this.setState({ Cambodia: !this.state.Cambodia })
                         }
                     >
-                        <h3>Cambodia</h3>
+                        <h3>
+                            <InlineIcon icon={flagForCambodia} />
+                            Cambodia
+                        </h3>
                     </div>
                     <div
                         className={
@@ -100,7 +121,10 @@ class Photography extends Component {
                             this.setState({ Vietnam: !this.state.Vietnam })
                         }
                     >
-                        <h3>Vitenam</h3>
+                        <h3>
+                            <InlineIcon icon={flagForVietnam} />
+                            Vitenam
+                        </h3>
                     </div>
                     <div
                         className={this.state.Laos ? "panel active" : "panel"}
@@ -114,7 +138,9 @@ class Photography extends Component {
                             this.setState({ Laos: !this.state.Laos })
                         }
                     >
-                        <h3>Laos</h3>
+                        <h3>
+                            <InlineIcon icon={flagForLaos} /> Laos
+                        </h3>
                     </div>
                     <div
                         className={
@@ -130,7 +156,10 @@ class Photography extends Component {
                             this.setState({ Thailand: !this.state.Thailand })
                         }
                     >
-                        <h3>Thailand</h3>
+                        <h3>
+                            <InlineIcon icon={flagForThailand} />
+                            Thailand
+                        </h3>
                     </div>
                 </div>
             </>
