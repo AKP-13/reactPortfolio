@@ -5,6 +5,7 @@ import linkedinFilled from "@iconify-icons/ant-design/linkedin-filled";
 import githubFilled from "@iconify-icons/ant-design/github-filled";
 import mediumCircleFilled from "@iconify-icons/ant-design/medium-circle-filled";
 import npmIcon from "@iconify-icons/cib/npm";
+import ContactForm from "./ContactForm";
 
 class Contact extends Component {
     componentDidMount() {
@@ -24,33 +25,42 @@ class Contact extends Component {
                     <div id="contact-page-div" className="row">
                         <div
                             id="contact-links-div"
-                            className="col-sm-4 col-lg-3 m-0"
+                            className="col-sm-2 col-lg-2 m-0"
                         >
                             <h3>Links</h3>
                             <h4>
-                                <Icon icon={githubFilled} color="#FCA311" />{" "}
-                                <span>- GitHub</span>
+                                <a href="https://github.com/AKP-13">
+                                    <Icon icon={githubFilled} color="#FCA311" />{" "}
+                                </a>
                             </h4>
                             <h4>
-                                <Icon icon={linkedinFilled} color="#FCA311" />{" "}
-                                <span>- LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/alexander-peirson-b445b3191/">
+                                    <Icon
+                                        icon={linkedinFilled}
+                                        color="#FCA311"
+                                    />{" "}
+                                </a>
                             </h4>
                             <h4>
-                                <Icon icon={npmIcon} color="#FCA311" />{" "}
-                                <span>- npm</span>
+                                <a href="https://www.npmjs.com/~akp-13">
+                                    <Icon icon={npmIcon} color="#FCA311" />{" "}
+                                </a>
                             </h4>
                             <h4>
-                                <Icon
-                                    icon={mediumCircleFilled}
-                                    color="#FCA311"
-                                />
-                                <span> - Medium</span>
+                                <a href="https://medium.com/@alexpeirson">
+                                    <Icon
+                                        icon={mediumCircleFilled}
+                                        color="#FCA311"
+                                    />
+                                </a>
                             </h4>
                         </div>
                         <div
                             id="contact-form-div"
                             className="col-sm-8 col-lg-9 m-0"
-                        ></div>
+                        >
+                            <ContactForm />
+                        </div>
                     </div>
                 </div>
             </>
