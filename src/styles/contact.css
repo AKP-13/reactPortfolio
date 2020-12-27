@@ -6,7 +6,7 @@
 }
 
 #contact-page-div {
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 30px 0px;
     justify-content: center;
 }
@@ -20,13 +20,17 @@
     background-color: #14213d;
     border-top-left-radius: inherit;
     border-bottom-left-radius: inherit;
+    box-shadow: 0px 0px 20px #00000010;
 }
 
 #contact-form-div {
     height: 600px;
+    display: flex;
+    align-items: center;
     background-color: #e5e5e5;
     border-top-right-radius: inherit;
     border-bottom-right-radius: inherit;
+    box-shadow: 0px 0px 20px #00000010;
 }
 
 #contact-links-div h3 {
@@ -35,7 +39,7 @@
 }
 
 #contact-links-div h4 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     transition: 0.3s;
 }
 
@@ -61,6 +65,10 @@ h4 span {
 @media (max-width: 575.98px) {
     #contact-links-div {
         border-radius: 10px 10px 0px 0px;
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        align-items: center;
     }
 
     #contact-form-div {
@@ -68,88 +76,8 @@ h4 span {
     }
 }
 
-form {
-    padding: 10px;
-}
-
-#formContainer {
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 5px;
-    /* box-shadow: 0px 0px 20px #00000010; */
-    /* background-color: white; */
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-.form-group {
-    width: 100%;
-    margin-top: 20px;
-    font-size: 16px;
-}
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid rgba(128, 128, 128, 0.199);
-    margin-top: 5px;
-}
-textarea {
-    resize: none;
-}
-button[type="submit"] {
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 20px;
-    border-radius: 8px;
-    color: black;
-    text-align: center;
-    cursor: pointer;
-    transition: 0.3s ease background-color;
-    display: block;
-    margin: 0 auto;
-}
-button[type="submit"]:hover {
-    background-color: #fca311;
-}
-#status {
-    width: 100%;
-    max-width: 700px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 8px;
-    opacity: 0;
-    pointer-events: none;
-}
-#status.success {
-    background-color: rgb(211, 250, 153);
-    color: green;
-    animation: status 5s ease forwards;
-}
-#status.error {
-    background-color: rgb(250, 129, 92);
-    color: rgb(252, 252, 252);
-    animation: status 5s ease forwards;
-}
-
-@media only screen and (max-width: 565px) {
-    #contactKrikor h2 {
-        font-size: 1rem;
-    }
-}
-
-@keyframes status {
-    0% {
-        opacity: 1;
-        pointer-events: all;
-    }
-    90% {
-        opacity: 1;
-        pointer-events: all;
-    }
-    100% {
-        opacity: 0;
-        pointer-events: none;
+@media (max-width: 767px) {
+    #contact-links-div h4 {
+        font-size: 3rem;
     }
 }

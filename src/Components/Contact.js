@@ -27,7 +27,6 @@ class Contact extends Component {
                             id="contact-links-div"
                             className="col-sm-2 col-lg-2 m-0"
                         >
-                            <h3>Links</h3>
                             <h4>
                                 <a href="https://github.com/AKP-13">
                                     <Icon icon={githubFilled} color="#FCA311" />{" "}
