@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../styles/contactForm.css";
 
 class ContactForm extends Component {
     componentDidMount() {
