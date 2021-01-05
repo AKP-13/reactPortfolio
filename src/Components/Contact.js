@@ -20,7 +20,8 @@ class Contact extends Component {
                     <p>
                         For more information about hiring me, please fill out
                         the form below and your message will be sent to
-                        futureproof's team. Alternatively, contact me directly.
+                        futureproof's team. Alternatively, contact me directly
+                        using one of the links below.
                     </p>
                     <div id="contact-page-div" className="row">
                         <div
