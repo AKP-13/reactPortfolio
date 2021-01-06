@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import AboutTabs from "./AboutTabs";
 import "../styles/about.css";
 
 class About extends Component {
@@ -9,7 +10,8 @@ class About extends Component {
     render() {
         return (
             <>
-                <h1 className="title">About</h1>
+                <h1 id="about-me-title">Hi, I'm Alex</h1>
+                <AboutTabs />
             </>
         );
     }
