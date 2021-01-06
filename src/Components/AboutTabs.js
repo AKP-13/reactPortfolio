@@ -9,7 +9,7 @@ function AboutTabs() {
     return (
         <Tabs
             className="justify-content-center"
-            id="controlled-tab-example"
+            id="about-tab"
             activeKey={key}
             onSelect={(k) => setKey(k)}
         >
