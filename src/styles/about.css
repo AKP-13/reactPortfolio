@@ -1,6 +1,33 @@
+.about-para {
+    width: 80vw;
+    margin: 10px auto 30px auto;
+}
+
 #about-me-title {
     color: black;
     font-family: "Dancing Script", cursive;
     font-size: 6rem;
     text-align: center;
+}
+
+#about-figure {
+    display: flex;
+}
+
+#about-figure-image {
+    margin: 5vh auto;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+#about-figure-image:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+@media only screen and (max-width: 600px) {
+    #about-figure-image {
+        filter: grayscale(0%);
+    }
 }
