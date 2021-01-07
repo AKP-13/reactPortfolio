@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import AboutTabs from "./AboutTabs";
-// import Image from "react-bootstrap/Image";
-import Figure from "react-bootstrap/Figure";
+import Container from "react-bootstrap/Container";
 import "../styles/about.css";
 
 class About extends Component {
@@ -12,17 +11,20 @@ class About extends Component {
     render() {
         return (
             <>
-                <h1 id="about-me-title">Hi, I'm Alex</h1>
-                <Figure id="about-figure">
-                    <Figure.Image
-                        id="about-figure-image"
-                        width={300}
-                        height={300}
-                        alt="Me!"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/v1602251966/portfolio/IMG_1698_emyb0u.png"
-                    />
-                </Figure>
-                <AboutTabs />
+                <Container fluid>
+                    <div className="row" id="about-heading">
+                        <h1 id="about-me-title">Hi, I'm Alex </h1>
+                        <img
+                            id="about-figure-image"
+                            alt="Me!"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1602251966/portfolio/IMG_1698_emyb0u.png"
+                        />
+                    </div>
+
+                    <div id="aboutAlex">
+                        <AboutTabs />
+                    </div>
+                </Container>
             </>
         );
     }
