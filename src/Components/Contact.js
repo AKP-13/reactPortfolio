@@ -15,13 +15,13 @@ class Contact extends Component {
     render() {
         return (
             <>
-                <h1 id="contact-title">Contact me</h1>
+                <h1 id="contact-title">Get in touch</h1>
                 <div className="container">
                     <p>
                         For more information about hiring me, please fill out
                         the form below and your message will be sent to
                         futureproof's team. Alternatively, contact me directly
-                        using one of the links below.
+                        via one of the links below.
                     </p>
                     <div id="contact-page-div" className="row">
                         <div
