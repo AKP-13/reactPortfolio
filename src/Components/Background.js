@@ -14,7 +14,7 @@ class Background extends Component {
                     <br />
                     <br />
                     This lead me to complete online courses and begin learning
-                    about basic web development in the form of HTML, CSS and
+                    about basic web development in the form of HTML , CSS and
                     JavaScript. I quickly realised that the more I learned, the
                     more I loved it! I became amazed by the endless
                     possibilities these skills, languages and technologies
