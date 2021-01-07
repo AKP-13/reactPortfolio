@@ -7,3 +7,4 @@ export { default as Contact } from "./Contact";
 export { default as Background } from "./Background";
 export { default as Interests } from "./Interests";
 export { default as Goals } from "./Goals";
+export { default as Skills } from "./Skills";
