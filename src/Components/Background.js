@@ -5,12 +5,12 @@ class Background extends Component {
         return (
             <>
                 <p className="about-para">
-                    Hey! My name is Alex and I am a Mathematics Graduate from
-                    the University of Birmingham. I got into coding last year
-                    when I returned home from 3 months of travelling through
-                    Southeast Asia and, unwilling to let the last 3 moths go, I
-                    thought it’d be really cool to learn how to build a blog and
-                    a photography portfolio from scratch to showcase my travels.
+                    I am a Mathematics Graduate from the University of
+                    Birmingham. I got into coding in 2019 when I returned home
+                    from 3 months of travelling through Southeast Asia and,
+                    unwilling to let the last 3 moths go, I thought it’d be
+                    really cool to learn how to build a blog and a photography
+                    portfolio from scratch to showcase my travels.
                     <br />
                     <br />
                     This lead me to complete online courses and begin learning
@@ -22,14 +22,13 @@ class Background extends Component {
                     in coding.
                     <br />
                     <br />
-                    This lead me to apply for futureproof’s 13 week Web
-                    Developer Bootcamp and here I am now at the other end of the
-                    course having gained experience with working with a vast
-                    range of amazing technologies, collaborating in teams to
-                    create secure full-stack applications and, more importantly
-                    (in my opinion), feeling like I have the confidence to
-                    tackle any problem presented to me going forward — no matter
-                    the language!
+                    After graduating from futureproof’s 13 week Web Developer
+                    Bootcamp, I have experience with working with a range of
+                    technologies, collaborating in teams to create secure
+                    full-stack applications and, more importantly (in my
+                    opinion), feeling like I have the confidence to tackle any
+                    problem presented to me going forward — no matter the
+                    language!
                 </p>
             </>
         );
