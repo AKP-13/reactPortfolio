@@ -1,42 +1,24 @@
 import React, { Component } from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { InlineIcon } from "@iconify/react";
+import fitnessIcon from "@iconify-icons/ion/fitness";
+import recyclingIcon from "@iconify-icons/icons8/recycling";
+import worldwideLocation from "@iconify-icons/wpf/worldwide-location";
+import food20Regular from "@iconify-icons/fluent/food-20-regular";
+import xboxIcon from "@iconify-icons/cib/xbox";
+import universityIcon from "@iconify-icons/la/university";
 
 class Interests extends Component {
-    // state = {
-    //     run: false,
-    //     recycle: true,
-    //     plant: false,
-    //     game: false,
-    //     travel: false,
-    //     study: false,
-    // };
-
     render() {
         return (
             <>
-                <div className="about-para" id="interests-para">
-                    <Row xs={1} sm={2}>
-                        <Col>
-                            <i className="fas fa-running fa-2x"></i>
-                        </Col>
-                        <Col>
-                            <i className="fas fa-recycle fa-2x"></i>
-                        </Col>
-                        <Col>
-                            <i className="fas fa-seedling fa-2x"></i>
-                        </Col>
-                        <Col>
-                            <i className="fab fa-xbox fa-2x"></i>
-                        </Col>
-                        <Col>
-                            <i className="far fa-compass fa-2x"></i>
-                        </Col>
-                        <Col>
-                            <i className="fas fa-graduation-cap fa-2x"></i>
-                        </Col>
-                    </Row>
-                </div>
+                <p className="about-para icons">
+                    <InlineIcon icon={fitnessIcon} color="#ffd166" />
+                    <InlineIcon icon={recyclingIcon} color="#06d6a0" />
+                    <InlineIcon icon={worldwideLocation} color="#ffd166" />
+                    <InlineIcon icon={food20Regular} color="#118ab2" />
+                    <InlineIcon icon={xboxIcon} color="#06d6a0" />
+                    <InlineIcon icon={universityIcon} color="#118AB2" />
+                </p>
             </>
         );
     }
