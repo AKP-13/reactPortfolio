@@ -22,13 +22,12 @@ class Background extends Component {
                     in coding.
                     <br />
                     <br />
-                    After graduating from futureproof’s 13 week Web Developer
+                    After graduating from futureproof’s 13 week Web Development
                     Bootcamp, I have experience with working with a range of
                     technologies, collaborating in teams to create secure
-                    full-stack applications and, more importantly (in my
-                    opinion), feeling like I have the confidence to tackle any
-                    problem presented to me going forward — no matter the
-                    language!
+                    full-stack applications and, more importantly feeling like I
+                    have the confidence to tackle any problem presented to me
+                    going forward — no matter the language!
                 </p>
             </>
         );
