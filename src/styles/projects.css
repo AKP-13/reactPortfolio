@@ -8,6 +8,7 @@ main {
     font-family: "Raleway", sans-serif;
     font-size: 6rem;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -15,7 +16,7 @@ main {
     transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
         0.3s box-shadow,
         0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .card:hover {
@@ -73,4 +74,16 @@ hr {
         rgba(0, 0, 0, 0.75),
         rgba(0, 0, 0, 0)
     );
+}
+
+@media (max-width: 400px) {
+    #projectsTitle {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    #projectsTitle {
+        font-size: 4rem;
+    }
 }
