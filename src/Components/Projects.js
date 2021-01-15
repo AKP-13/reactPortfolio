@@ -74,8 +74,8 @@ class Projects extends Component {
                                 </span>
                                 <hr />
                                 <p className="card-text">
-                                    A RESTful campground viewing website that
-                                    allows users, with secure authorisation and
+                                    A campground viewing website that allows
+                                    users, with secure authorisation and
                                     authentication, to login and submit, review
                                     and commment on a range of potential
                                     campsites. Built with Express, EJS, MongoDB,
@@ -254,8 +254,8 @@ class Projects extends Component {
                                 </span>
                                 <hr />
                                 <p className="card-text">
-                                    Allows users to search for a
-                                    <a href="https://github.com/">GitHub</a>
+                                    Allows users to search for a{" "}
+                                    <a href="https://github.com/">GitHub</a>{" "}
                                     username and retrieve information about that
                                     user's repositories via the GitHub API.
                                     Information received includes the repository
@@ -329,7 +329,7 @@ class Projects extends Component {
                                 </span>
                                 <hr />
                                 <p className="card-text">
-                                    A landing page example for a company
+                                    A landing page for a company called
                                     'Healthshack' showcasing recipes they offer
                                     along with the locations of their shops.
                                     Built using Bootstrap.
@@ -429,7 +429,7 @@ class Projects extends Component {
                                 </span>
                                 <hr />
                                 <p className="card-text">
-                                    An Express application that allows users to
+                                    An application that allows users to
                                     anonymously create blog posts with the
                                     option of adding a GIF via the GIPHY API.
                                     Users can search for existing blog entries
@@ -465,11 +465,11 @@ class Projects extends Component {
                                     <a href="https://github.com/AKP-13">
                                         Alex Peirson
                                     </a>
-                                    ,
+                                    ,{" "}
                                     <a href="https://cindywfeng.netlify.app/">
                                         Cindy Feng
                                     </a>
-                                    ,
+                                    ,{" "}
                                     <a href="https://www.jamiesear.com/">
                                         Jamie Sear
                                     </a>{" "}
