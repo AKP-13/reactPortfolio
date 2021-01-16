@@ -1,48 +1,10 @@
-.expanding-cards {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.panel {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.carousel-photo {
+    object-fit: cover;
     height: 40vh;
-    border-radius: 2px;
-    color: #fff;
-    cursor: pointer;
-    flex: 0.5;
-    margin: 1px;
     position: relative;
     transition: flex 0.7s ease-in;
 }
 
-.panel h3 {
-    font-size: 24px;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    margin: 0;
-    opacity: 0;
+.countryNames {
     font-family: "Dancing Script", cursive;
-}
-
-.panel.active {
-    flex: 5;
-}
-
-.panel.active h3 {
-    opacity: 1;
-    transition: opacity 0.3s ease-in 0.5s;
-}
-
-@media (max-width: 480px) {
-    .panel:nth-of-type(4),
-    .panel:nth-of-type(5) {
-        display: none;
-    }
 }
