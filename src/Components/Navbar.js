@@ -31,10 +31,10 @@ class Navbar extends Component {
                         <li className="nav-item">
                             <NavLink
                                 className="nav-link"
-                                to="/photography"
+                                to="/about"
                                 activeClassName="current"
                             >
-                                Photography
+                                About
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -49,10 +49,10 @@ class Navbar extends Component {
                         <li className="nav-item">
                             <NavLink
                                 className="nav-link"
-                                to="/about"
+                                to="/photography"
                                 activeClassName="current"
                             >
-                                About
+                                Photography
                             </NavLink>
                         </li>
                         <li className="nav-item">
