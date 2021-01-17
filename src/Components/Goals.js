@@ -6,11 +6,11 @@ class Goals extends Component {
             <>
                 <p className="about-para">
                     I am incredibly excited to build on the foundations I gained
-                    from futureproof and apply myslef in a company whose goals
+                    from futureproof and apply myself in a company whose goals
                     and visions align with my own.
                     <br />
                     <br />
-                    I am constantly learning more skills while woriking on new
+                    I am constantly learning more skills while working on new
                     projects and would love to work for a company that would
                     allow me to incorporate my technical skills with my other
                     passions and ultimately contribute to making the world a
