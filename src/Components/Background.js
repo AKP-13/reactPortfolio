@@ -5,29 +5,31 @@ class Background extends Component {
         return (
             <>
                 <p className="about-para">
-                    I am a Mathematics Graduate from the University of
-                    Birmingham. I got into coding in 2019 when I returned home
-                    from 3 months of travelling through Southeast Asia and,
-                    unwilling to let the last 3 moths go, I thought it’d be
-                    really cool to learn how to build a blog and a photography
-                    portfolio from scratch to showcase my travels.
+                    A Mathematics Graduate from the University of Birmingham and
+                    recent Full-Stack Web Developer Bootcamp Graduate from
+                    futureproof.
                     <br />
                     <br />
-                    This lead me to complete online courses and begin learning
-                    about basic web development in the form of HTML , CSS and
-                    JavaScript. I quickly realised that the more I learned, the
-                    more I loved it! I became amazed by the endless
-                    possibilities these skills, languages and technologies
-                    provided and where they could take me if I pursued a career
-                    in coding.
+                    I gained experience with C++ and MATLAB at University and it
+                    was after graduating that I started exploring other
+                    languages through the form of online courses and quickly
+                    realised that the more I learned, the more I loved it! This
+                    lead me to apply to futureproof's coding bootcamp.
                     <br />
                     <br />
-                    After graduating from futureproof’s 13 week Web Development
-                    Bootcamp, I have experience with working with a range of
-                    technologies, collaborating in teams to create secure
-                    full-stack applications and, more importantly feeling like I
-                    have the confidence to tackle any problem presented to me
-                    going forward — no matter the language!
+                    The futureproof bootcamp gave me experience with
+                    <ul>
+                        <li>
+                            working individually on time restricted debugging
+                            assignments
+                        </li>
+                        <li>
+                            pair programming while using GitHub and version
+                            control best practices
+                        </li>
+                        <li>collaborating in groups on week-long projects</li>
+                        <li>daily stand-ups and weekly retros</li>
+                    </ul>
                 </p>
             </>
         );
