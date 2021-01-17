@@ -8,3 +8,4 @@ export { default as Background } from "./Background";
 export { default as Goals } from "./Goals";
 export { default as Skills } from "./Skills";
 export { default as PhotoCarousel } from "./PhotoCarousel";
+export { default as PhotoGrid } from "./PhotoGrid";

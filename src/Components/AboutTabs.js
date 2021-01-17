@@ -4,7 +4,7 @@ import Tab from "react-bootstrap/Tab";
 import { Background, Goals, Skills } from "./index";
 
 function AboutTabs() {
-    const [key, setKey] = useState("background");
+    const [key, setKey] = useState("skills");
 
     return (
         <Tabs

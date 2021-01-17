@@ -5,19 +5,27 @@ class Goals extends Component {
         return (
             <>
                 <p className="about-para">
-                    Armed with the confidence to tackle new problems and
-                    countless new skills, I am incredibly excited to build on
-                    the foundations I gained from futureproof and always
-                    continue learning.
+                    I am incredibly excited to build on the foundations I gained
+                    from futureproof and apply myslef in a company whose goals
+                    and visions align with my own.
                     <br />
                     <br />
-                    In this ever changing industry, I am eager to continue
-                    broadening my skills and put them to use in my own personal
-                    projects. Going forward, I would love to incorporate my love
-                    of technology with my other passions — whether it’s
-                    sustainability, renewable energy, food, fitness or health —
-                    and ultimately contribute to making the world a better place
-                    and improving people’s lives.
+                    I am constantly learning more skills while woriking on new
+                    projects and would love to work for a company that would
+                    allow me to incorporate my technical skills with my other
+                    passions and ultimately contribute to making the world a
+                    better place and improving people’s lives.
+                    <br />
+                    <br />
+                    Such areas of interest include
+                    <ul>
+                        <li>sustainability</li>
+                        <li>renewable energy</li>
+                        <li>electric vehicles</li>
+                        <li>food</li>
+                        <li>fitness</li>
+                        <li>health</li>
+                    </ul>
                 </p>
             </>
         );

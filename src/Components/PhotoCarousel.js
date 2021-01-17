@@ -20,7 +20,7 @@ class PhotoCarousel extends Component {
         return (
             <>
                 <Carousel>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610754700/portfolio/F1824CE4-B1A6-42AF-9DA8-B089111F9BD1_lwfgkg.jpg"
@@ -32,7 +32,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610729753/portfolio/IMG_0531_enftpw.jpg"
@@ -44,7 +44,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610732012/portfolio/IMG_1907_oa8clh.jpg"
@@ -56,7 +56,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610729786/portfolio/IMG_2995_v2gfy3.jpg"
@@ -68,7 +68,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610732074/portfolio/IMG_0465_imjmcw.jpg"
@@ -80,7 +80,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610732113/portfolio/IMG_3950_v4e22o.jpg"
@@ -92,7 +92,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1600948599/portfolio/IMG_2006_sknklq.jpg"
@@ -105,7 +105,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610732072/portfolio/IMG_3095_h5ffgn.jpg"
@@ -118,7 +118,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1608314600/portfolio/IMG_4328_uz4xxp.jpg"
@@ -131,7 +131,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1599147896/portfolio/IMG_5418_uecow9.jpg"
@@ -144,7 +144,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610729772/portfolio/IMG_6767_x17saw.jpg"
@@ -157,7 +157,7 @@ class PhotoCarousel extends Component {
                             </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={50000}>
+                    <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610732035/portfolio/IMG_7171_v4jvv3.jpg"
@@ -171,7 +171,6 @@ class PhotoCarousel extends Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-                ;
             </>
         );
     }

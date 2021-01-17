@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../styles/photography.css";
 
 import PhotoCarousel from "./PhotoCarousel";
+import PhotoGrid from "./PhotoGrid";
 
 class Photography extends Component {
     componentDidMount() {
@@ -12,6 +13,7 @@ class Photography extends Component {
         return (
             <>
                 <PhotoCarousel />
+                <PhotoGrid />
             </>
         );
     }
