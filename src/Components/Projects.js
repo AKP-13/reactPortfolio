@@ -77,7 +77,7 @@ class Projects extends Component {
                                     A campground viewing website that allows
                                     users, with secure authorisation and
                                     authentication, to login and submit, review
-                                    and commment on a range of potential
+                                    and comment on a range of potential
                                     campsites. Built with Express, EJS, MongoDB,
                                     Mongoose and Passport.
                                 </p>
