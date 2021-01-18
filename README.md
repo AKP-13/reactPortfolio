@@ -1,3 +1,3 @@
 Welcome to my portfolio!
 
-Updated from the features branch.
+Updated from the lazy-load branch.
