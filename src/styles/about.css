@@ -64,3 +64,14 @@
         font-size: 4rem;
     }
 }
+
+.full {
+    transition: opacity 400ms ease 0ms;
+}
+
+.thumb {
+    position: fixed;
+    filter: blur(20px);
+    /* transform: scale(1.1); */
+    transition: visibility 0ms ease 400ms;
+}
