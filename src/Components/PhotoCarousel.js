@@ -23,7 +23,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610754700/portfolio/F1824CE4-B1A6-42AF-9DA8-B089111F9BD1_lwfgkg.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610754700/portfolio/F1824CE4-B1A6-42AF-9DA8-B089111F9BD1_lwfgkg.jpg"
                             alt="England"
                         />
                         <Carousel.Caption>
@@ -35,7 +35,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610729753/portfolio/IMG_0531_enftpw.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610729753/portfolio/IMG_0531_enftpw.jpg"
                             alt="Spain"
                         />
                         <Carousel.Caption>
@@ -47,7 +47,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610732012/portfolio/IMG_1907_oa8clh.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732012/portfolio/IMG_1907_oa8clh.jpg"
                             alt="France"
                         />
                         <Carousel.Caption>
@@ -59,7 +59,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610729786/portfolio/IMG_2995_v2gfy3.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610729786/portfolio/IMG_2995_v2gfy3.jpg"
                             alt="Croatia"
                         />
                         <Carousel.Caption>
@@ -71,7 +71,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610732074/portfolio/IMG_0465_imjmcw.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732074/portfolio/IMG_0465_imjmcw.jpg"
                             alt="Lithuania"
                         />
                         <Carousel.Caption>
@@ -83,7 +83,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610732113/portfolio/IMG_3950_v4e22o.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732113/portfolio/IMG_3950_v4e22o.jpg"
                             alt="Malaysia"
                         />
                         <Carousel.Caption>
@@ -95,7 +95,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1600948599/portfolio/IMG_2006_sknklq.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1600948599/portfolio/IMG_2006_sknklq.jpg"
                             alt="Singapore"
                         />
 
@@ -108,7 +108,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610732072/portfolio/IMG_3095_h5ffgn.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732072/portfolio/IMG_3095_h5ffgn.jpg"
                             alt="Indonesia"
                         />
 
@@ -121,7 +121,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1608314600/portfolio/IMG_4328_uz4xxp.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1608314600/portfolio/IMG_4328_uz4xxp.jpg"
                             alt="Cambodia"
                         />
 
@@ -134,7 +134,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1599147896/portfolio/IMG_5418_uecow9.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1599147896/portfolio/IMG_5418_uecow9.jpg"
                             alt="Vietnam"
                         />
 
@@ -147,7 +147,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610729772/portfolio/IMG_6767_x17saw.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610729772/portfolio/IMG_6767_x17saw.jpg"
                             alt="Laos"
                         />
 
@@ -160,7 +160,7 @@ class PhotoCarousel extends Component {
                     <Carousel.Item interval={5000}>
                         <img
                             className="d-block w-100 carousel-photo"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1610732035/portfolio/IMG_7171_v4jvv3.jpg"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732035/portfolio/IMG_7171_v4jvv3.jpg"
                             alt="Thailand"
                         />
 
