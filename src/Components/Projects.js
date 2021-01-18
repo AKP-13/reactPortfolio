@@ -15,7 +15,7 @@ class Projects extends Component {
                         <div className="card h-100">
                             <a href="https://obscure-thicket-12063.herokuapp.com/">
                                 <img
-                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900/v1601411793/portfolio/Screenshot_2020-08-29_at_21.13.24_tea3ut.png"
+                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1601411793/portfolio/Screenshot_2020-08-29_at_21.13.24_tea3ut.png"
                                     className="card-img-top"
                                     alt="Link to YelpCamp"
                                 />
@@ -115,7 +115,7 @@ class Projects extends Component {
                         <div className="card h-100">
                             <a href="https://akp13.pythonanywhere.com/#/">
                                 <img
-                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900/v1603385584/portfolio/Screenshot_2020-10-22_at_17.52.28_ecgbpi.png"
+                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1603385584/portfolio/Screenshot_2020-10-22_at_17.52.28_ecgbpi.png"
                                     className="card-img-top"
                                     alt="Link to FIFA 21 Random Match Generator"
                                 />
@@ -211,7 +211,7 @@ class Projects extends Component {
                         <div className="card h-100">
                             <a href="https://github-clone-alex-mugisha.netlify.app/">
                                 <img
-                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900/v1601199704/portfolio/Screenshot_2020-09-27_at_10.41.01_zwktiy.png"
+                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1601199704/portfolio/Screenshot_2020-09-27_at_10.41.01_zwktiy.png"
                                     className="card-img-top"
                                     alt="Link to GitHub clone"
                                 />
@@ -302,7 +302,7 @@ class Projects extends Component {
                         <div className="card h-100">
                             <a href="https://healthshack.netlify.app/">
                                 <img
-                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900/v1601411115/portfolio/Screenshot_2020-08-27_at_11.46.52_crnefi.png"
+                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1601411115/portfolio/Screenshot_2020-08-27_at_11.46.52_crnefi.png"
                                     className="card-img-top"
                                     alt="Link to Healthshack"
                                 />
@@ -374,7 +374,7 @@ class Projects extends Component {
                         <div className="card h-100">
                             <a href="https://majc-blogs.netlify.app/index.html">
                                 <img
-                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900/v1601411186/portfolio/Screenshot_2020-08-27_at_11.52.30_dzdwu1.png"
+                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1601411186/portfolio/Screenshot_2020-08-27_at_11.52.30_dzdwu1.png"
                                     className="card-img-top"
                                     alt="Link to MAJC Blogs"
                                 />

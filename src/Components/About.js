@@ -17,7 +17,7 @@ class About extends Component {
                         <img
                             id="about-figure-image"
                             alt="Me!"
-                            src="https://res.cloudinary.com/de8a23w1z/image/upload/v1602251966/portfolio/IMG_1698_emyb0u.png"
+                            src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1602251966/portfolio/IMG_1698_emyb0u.png"
                         />
                     </div>
 
