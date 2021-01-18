@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import { Icon, InlineIcon } from "@iconify/react";
+import { InlineIcon } from "@iconify/react";
 
 import flagEngland from "@iconify-icons/emojione/flag-england";
 import flagForSpain from "@iconify-icons/emojione/flag-for-spain";
@@ -26,6 +26,7 @@ class PhotoCarousel extends Component {
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610754700/portfolio/F1824CE4-B1A6-42AF-9DA8-B089111F9BD1_lwfgkg.jpg"
                             alt="England"
                         />
+
                         <Carousel.Caption>
                             <h3 className="countryNames">
                                 <InlineIcon icon={flagEngland} /> England
@@ -38,6 +39,7 @@ class PhotoCarousel extends Component {
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610729753/portfolio/IMG_0531_enftpw.jpg"
                             alt="Spain"
                         />
+
                         <Carousel.Caption>
                             <h3 className="countryNames">
                                 <InlineIcon icon={flagForSpain} /> Spain
@@ -50,6 +52,7 @@ class PhotoCarousel extends Component {
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732012/portfolio/IMG_1907_oa8clh.jpg"
                             alt="France"
                         />
+
                         <Carousel.Caption>
                             <h3 className="countryNames">
                                 <InlineIcon icon={flagForFrance} /> France
@@ -62,6 +65,7 @@ class PhotoCarousel extends Component {
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610729786/portfolio/IMG_2995_v2gfy3.jpg"
                             alt="Croatia"
                         />
+
                         <Carousel.Caption>
                             <h3 className="countryNames">
                                 <InlineIcon icon={flagForCroatia} /> Croatia
@@ -74,6 +78,7 @@ class PhotoCarousel extends Component {
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732074/portfolio/IMG_0465_imjmcw.jpg"
                             alt="Lithuania"
                         />
+
                         <Carousel.Caption>
                             <h3 className="countryNames">
                                 <InlineIcon icon={flagForLithuania} /> Lithuania
@@ -86,6 +91,7 @@ class PhotoCarousel extends Component {
                             src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732113/portfolio/IMG_3950_v4e22o.jpg"
                             alt="Malaysia"
                         />
+
                         <Carousel.Caption>
                             <h3 className="countryNames">
                                 <InlineIcon icon={flagForMalaysia} /> Malaysia
