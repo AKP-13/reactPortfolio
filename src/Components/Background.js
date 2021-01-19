@@ -14,7 +14,7 @@ class Background extends Component {
                     was after graduating that I started exploring other
                     languages through the form of online courses and quickly
                     realised that the more I learned, the more I loved it! This
-                    lead me to apply to futureproof's coding bootcamp.
+                    led me to apply to futureproof's coding bootcamp.
                     <br />
                     <br />
                     The futureproof bootcamp gave me experience with
