@@ -25,6 +25,11 @@
 
 .about-para {
     margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.bulletPoints {
     font-family: "Poppins", sans-serif;
 }
 
