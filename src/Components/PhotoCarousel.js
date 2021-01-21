@@ -33,7 +33,6 @@ function PhotoCarousel() {
 
     const changeHandler = (e) => {
         e.preventDefault();
-        console.log(e);
         setCountryValues((countries) => {
             return { ...countries, [e.target.name]: !e.target.value };
         });
