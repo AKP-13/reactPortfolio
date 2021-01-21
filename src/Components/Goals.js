@@ -17,16 +17,16 @@ class Goals extends Component {
                     better place and improving people’s lives.
                     <br />
                     <br />
-                    Such areas of interest include
-                    <ul>
-                        <li>sustainability</li>
-                        <li>renewable energy</li>
-                        <li>electric vehicles</li>
-                        <li>food</li>
-                        <li>fitness</li>
-                        <li>health</li>
-                    </ul>
+                    Such areas of interest include:
                 </p>
+                <ul className="bulletPoints">
+                    <li>sustainability</li>
+                    <li>renewable energy</li>
+                    <li>electric vehicles</li>
+                    <li>food</li>
+                    <li>fitness</li>
+                    <li>health</li>
+                </ul>
             </>
         );
     }
