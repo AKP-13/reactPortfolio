@@ -115,7 +115,8 @@ class Projects extends Component {
                         <div className="card h-100">
                             <a href="https://akp13.pythonanywhere.com/#/">
                                 <img
-                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1603385584/portfolio/Screenshot_2020-10-22_at_17.52.28_ecgbpi.png"
+                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1611927504/portfolio/Screenshot_2021-01-29_at_13.37.53_uadifs.png"
+                                    // src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1603385584/portfolio/Screenshot_2020-10-22_at_17.52.28_ecgbpi.png"
                                     className="card-img-top"
                                     alt="Link to FIFA 21 Random Match Generator"
                                 />
