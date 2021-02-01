@@ -31,7 +31,7 @@ const config = {
         // for favicon use
         new HtmlWebpackPlugin({
             template: "public/index.html",
-            favicon: "public/favicon/favicon.ico",
+            favicon: "public/favicon.ico",
         }),
     ],
     module: {
@@ -44,7 +44,7 @@ const config = {
                 use: ["style-loader", "css-loader"],
             }, // transpile css files
             {
-                test: /\.(png|svg|jpg|gif|pdf)$/,
+                test: /\.(png|svg|jpg|gif|pdf|webmanifest)$/,
                 use: ["file-loader"],
             }, // transpile image files
         ],
