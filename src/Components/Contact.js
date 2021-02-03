@@ -34,7 +34,7 @@ class Contact extends Component {
                                 </a>
                             </h4>
                             <h4>
-                                <a href="https://www.linkedin.com/in/alexander-peirson-b445b3191/">
+                                <a href="https://www.linkedin.com/in/alexander-peirson/">
                                     <Icon
                                         icon={linkedinFilled}
                                         color="#FCA311"
