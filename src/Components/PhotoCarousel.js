@@ -1,19 +1,5 @@
-import React, { useState, Component } from "react";
+import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import { InlineIcon } from "@iconify/react";
-
-import flagEngland from "@iconify-icons/emojione/flag-england";
-import flagForSpain from "@iconify-icons/emojione/flag-for-spain";
-import flagForFrance from "@iconify-icons/emojione/flag-for-france";
-import flagForCroatia from "@iconify-icons/emojione/flag-for-croatia";
-import flagForLithuania from "@iconify-icons/emojione/flag-for-lithuania";
-import flagForMalaysia from "@iconify-icons/emojione/flag-for-malaysia";
-import flagForSingapore from "@iconify-icons/emojione/flag-for-singapore";
-import flagForIndonesia from "@iconify-icons/emojione/flag-for-indonesia";
-import flagForCambodia from "@iconify-icons/emojione/flag-for-cambodia";
-import flagForVietnam from "@iconify-icons/emojione/flag-for-vietnam";
-import flagForLaos from "@iconify-icons/emojione/flag-for-laos";
-import flagForThailand from "@iconify-icons/emojione/flag-for-thailand";
 
 function PhotoCarousel() {
     const [countries, setCountryValues] = useState({
@@ -64,7 +50,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagEngland} /> England
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-england"
+                                data-inline="false"
+                            ></span>{" "}
+                            England
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -90,7 +81,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForSpain} /> Spain
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-spain"
+                                data-inline="false"
+                            ></span>{" "}
+                            Spain
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -116,7 +112,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForFrance} /> France
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-france"
+                                data-inline="false"
+                            ></span>{" "}
+                            France
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -144,7 +145,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForCroatia} /> Croatia
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-croatia"
+                                data-inline="false"
+                            ></span>{" "}
+                            Croatia
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -172,7 +178,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForLithuania} /> Lithuania
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-lithuania"
+                                data-inline="false"
+                            ></span>{" "}
+                            Lithuania
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -200,7 +211,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForMalaysia} /> Malaysia
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-malaysia"
+                                data-inline="false"
+                            ></span>{" "}
+                            Malaysia
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -228,7 +244,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForSingapore} /> Singapore
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-singapore"
+                                data-inline="false"
+                            ></span>{" "}
+                            Singapore
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -256,7 +277,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForIndonesia} /> Indonesia
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-indonesia"
+                                data-inline="false"
+                            ></span>{" "}
+                            Indonesia
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -284,7 +310,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForCambodia} /> Cambodia
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-indonesia"
+                                data-inline="false"
+                            ></span>{" "}
+                            Cambodia
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -312,7 +343,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForVietnam} /> Vietnam
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-vietnam"
+                                data-inline="false"
+                            ></span>{" "}
+                            Vietnam
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -338,7 +374,12 @@ function PhotoCarousel() {
                     />
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForLaos} /> Laos
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-laos"
+                                data-inline="false"
+                            ></span>{" "}
+                            Laos
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -367,7 +408,12 @@ function PhotoCarousel() {
 
                     <Carousel.Caption>
                         <h3 className="countryNames">
-                            <InlineIcon icon={flagForThailand} /> Thailand
+                            <span
+                                className="iconify"
+                                data-icon="emojione:flag-for-thailand"
+                                data-inline="false"
+                            ></span>{" "}
+                            Thailand
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>

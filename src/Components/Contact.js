@@ -1,10 +1,5 @@
 import React, { Component } from "react";
 import "../styles/contact.css";
-import { Icon, InlineIcon } from "@iconify/react";
-import linkedinFilled from "@iconify-icons/ant-design/linkedin-filled";
-import githubFilled from "@iconify-icons/ant-design/github-filled";
-import mediumCircleFilled from "@iconify-icons/ant-design/medium-circle-filled";
-import npmIcon from "@iconify-icons/cib/npm";
 import ContactForm from "./ContactForm";
 
 class Contact extends Component {
@@ -30,28 +25,39 @@ class Contact extends Component {
                         >
                             <h4>
                                 <a href="https://github.com/AKP-13">
-                                    <Icon icon={githubFilled} color="#FCA311" />{" "}
+                                    <span
+                                        className="iconify contact-icon"
+                                        data-icon="ant-design:github-filled"
+                                        data-inline="false"
+                                    ></span>
                                 </a>
                             </h4>
                             <h4>
                                 <a href="https://www.linkedin.com/in/alexander-peirson/">
-                                    <Icon
-                                        icon={linkedinFilled}
+                                    <span
+                                        className="iconify contact-icon"
+                                        data-icon="ant-design:linkedin-filled"
+                                        data-inline="false"
                                         color="#FCA311"
-                                    />{" "}
+                                    ></span>
                                 </a>
                             </h4>
                             <h4>
                                 <a href="https://www.npmjs.com/~akp-13">
-                                    <Icon icon={npmIcon} color="#FCA311" />{" "}
+                                    <span
+                                        className="iconify contact-icon"
+                                        data-icon="cib:npm"
+                                        data-inline="false"
+                                    ></span>
                                 </a>
                             </h4>
                             <h4>
                                 <a href="https://medium.com/@alexpeirson">
-                                    <Icon
-                                        icon={mediumCircleFilled}
-                                        color="#FCA311"
-                                    />
+                                    <span
+                                        className="iconify contact-icon"
+                                        data-icon="ant-design:medium-circle-filled"
+                                        data-inline="false"
+                                    ></span>
                                 </a>
                             </h4>
                         </div>
