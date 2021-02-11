@@ -210,6 +210,90 @@ class Projects extends Component {
                     </div>
                     <div className="col mb-4">
                         <div className="card h-100">
+                            <a href="https://www.amatu.co">
+                                <img
+                                    src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1613064787/portfolio/Screenshot_2021-02-11_at_17.31.34_hc9tbg.png"
+                                    className="card-img-top"
+                                    alt="Link to Jewellery by Amatu"
+                                />
+                            </a>
+                            <div className="card-body">
+                                <h5 className="card-title">
+                                    <a href="https://www.amatu.co">
+                                        Jewellery by Amatu
+                                    </a>
+                                    <br />
+                                    Coming soon
+                                </h5>
+                                {/* <span className="techLogos">
+                                    <span
+                                        className="iconify"
+                                        data-icon="vscode-icons:file-type-html"
+                                    ></span>
+                                    <span
+                                        className="iconify"
+                                        data-icon="vscode-icons:file-type-css"
+                                    ></span>
+                                    <span
+                                        className="iconify"
+                                        data-icon="logos:javascript"
+                                    ></span>
+                                    <span
+                                        className="iconify"
+                                        data-icon="logos:react"
+                                    ></span>
+                                    <span
+                                        className="iconify"
+                                        data-icon="vscode-icons:file-type-babel2"
+                                    ></span>
+                                    <span
+                                        className="iconify"
+                                        data-icon="logos:webpack"
+                                    ></span>
+                                    <span
+                                        className="iconify"
+                                        data-icon="simple-icons:jest"
+                                    ></span>
+                                </span> */}
+                                <hr />
+                                <p className="card-text">
+                                    A freelance project for a clients' jewellery
+                                    business.
+                                </p>
+                            </div>
+                            <div className="card-footer linksFooter">
+                                <small className="text-muted links">
+                                    <a href="https://www.amatu.co">
+                                        <span
+                                            className="iconify"
+                                            data-icon="bx:bx-link-external"
+                                        ></span>
+                                    </a>
+                                    <span
+                                        className="iconify"
+                                        data-icon="et:mobile"
+                                    ></span>
+                                    <a href="https://github.com/AKP-13/amatu">
+                                        <span
+                                            className="iconify"
+                                            data-icon="logos:github-icon"
+                                        ></span>
+                                    </a>
+                                </small>
+                            </div>
+                            <div className="card-footer">
+                                <small className="text-muted">
+                                    Contributors:{" "}
+                                    <a href="https://github.com/AKP-13">
+                                        Alex Peirson
+                                    </a>
+                                    .
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col mb-4">
+                        <div className="card h-100">
                             <a href="https://github-clone-alex-mugisha.netlify.app/">
                                 <img
                                     src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1601199704/portfolio/Screenshot_2020-09-27_at_10.41.01_zwktiy.png"
