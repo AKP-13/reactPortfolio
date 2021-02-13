@@ -225,36 +225,6 @@ class Projects extends Component {
                                     <br />
                                     Coming soon
                                 </h5>
-                                {/* <span className="techLogos">
-                                    <span
-                                        className="iconify"
-                                        data-icon="vscode-icons:file-type-html"
-                                    ></span>
-                                    <span
-                                        className="iconify"
-                                        data-icon="vscode-icons:file-type-css"
-                                    ></span>
-                                    <span
-                                        className="iconify"
-                                        data-icon="logos:javascript"
-                                    ></span>
-                                    <span
-                                        className="iconify"
-                                        data-icon="logos:react"
-                                    ></span>
-                                    <span
-                                        className="iconify"
-                                        data-icon="vscode-icons:file-type-babel2"
-                                    ></span>
-                                    <span
-                                        className="iconify"
-                                        data-icon="logos:webpack"
-                                    ></span>
-                                    <span
-                                        className="iconify"
-                                        data-icon="simple-icons:jest"
-                                    ></span>
-                                </span> */}
                                 <hr />
                                 <p className="card-text">
                                     A freelance project for a clients' jewellery
