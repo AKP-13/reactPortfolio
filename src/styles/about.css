@@ -75,7 +75,7 @@
 }
 
 .thumb {
-    position: fixed;
+    position: absolute;
     filter: blur(20px);
     transition: visibility 0s linear 0s, opacity 500ms;
 }
