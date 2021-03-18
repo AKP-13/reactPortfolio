@@ -30,7 +30,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={10000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10/v1610984558/portfolio/englandPhoto_iiuiup.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10/v1610984558/portfolio/englandPhoto_iiuiup.jpg"
                         alt="England"
                         style={{
                             display: countries.england
@@ -44,7 +44,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.england ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610754700/portfolio/F1824CE4-B1A6-42AF-9DA8-B089111F9BD1_lwfgkg.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1610754700/portfolio/F1824CE4-B1A6-42AF-9DA8-B089111F9BD1_lwfgkg.jpg"
                         alt="England"
                         name="england"
                     />
@@ -63,7 +63,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto/v1610729753/portfolio/IMG_0531_enftpw.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto/v1610729753/portfolio/IMG_0531_enftpw.jpg"
                         alt="Spain"
                         style={{
                             display: countries.spain ? "none" : "inline-block",
@@ -75,7 +75,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.spain ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610729753/portfolio/IMG_0531_enftpw.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1610729753/portfolio/IMG_0531_enftpw.jpg"
                         alt="Spain"
                         name="spain"
                     />
@@ -94,7 +94,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto/v1610732012/portfolio/IMG_1907_oa8clh.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto/v1610732012/portfolio/IMG_1907_oa8clh.jpg"
                         alt="France"
                         style={{
                             display: countries.france ? "none" : "inline-block",
@@ -106,7 +106,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.france ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732012/portfolio/IMG_1907_oa8clh.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1610732012/portfolio/IMG_1907_oa8clh.jpg"
                         alt="France"
                         name="france"
                     />
@@ -125,7 +125,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto,f_auto/v1610729786/portfolio/IMG_2995_v2gfy3.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto,f_auto/v1610729786/portfolio/IMG_2995_v2gfy3.jpg"
                         alt="Croatia"
                         style={{
                             display: countries.croatia
@@ -139,7 +139,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.croatia ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610729786/portfolio/IMG_2995_v2gfy3.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1610729786/portfolio/IMG_2995_v2gfy3.jpg"
                         alt="Croatia"
                         name="croatia"
                     />
@@ -158,7 +158,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto,f_auto/v1610732074/portfolio/IMG_0465_imjmcw.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto,f_auto/v1610732074/portfolio/IMG_0465_imjmcw.jpg"
                         alt="Lithuania"
                         style={{
                             display: countries.lithuania
@@ -172,7 +172,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.lithuania ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732074/portfolio/IMG_0465_imjmcw.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1610732074/portfolio/IMG_0465_imjmcw.jpg"
                         alt="Lithuania"
                         name="lithuania"
                     />
@@ -191,7 +191,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto,f_auto/v1610732113/portfolio/IMG_3950_v4e22o.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto,f_auto/v1610732113/portfolio/IMG_3950_v4e22o.jpg"
                         alt="Malaysia"
                         style={{
                             display: countries.malaysia
@@ -205,7 +205,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.malaysia ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732113/portfolio/IMG_3950_v4e22o.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1610732113/portfolio/IMG_3950_v4e22o.jpg"
                         alt="Malaysia"
                         name="malaysia"
                     />
@@ -224,7 +224,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto,f_auto/v1600948599/portfolio/IMG_2006_sknklq.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto,f_auto/v1600948599/portfolio/IMG_2006_sknklq.jpg"
                         alt="Singapore"
                         style={{
                             display: countries.singapore
@@ -238,7 +238,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.singapore ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1600948599/portfolio/IMG_2006_sknklq.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1600948599/portfolio/IMG_2006_sknklq.jpg"
                         alt="Singapore"
                         name="singapore"
                     />
@@ -257,7 +257,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto,f_auto/v1610732072/portfolio/IMG_3095_h5ffgn.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto,f_auto/v1610732072/portfolio/IMG_3095_h5ffgn.jpg"
                         alt="Indonesia"
                         style={{
                             display: countries.indonesia
@@ -271,7 +271,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.indonesia ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732072/portfolio/IMG_3095_h5ffgn.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1610732072/portfolio/IMG_3095_h5ffgn.jpg"
                         alt="Indonesia"
                         name="indonesia"
                     />
@@ -290,7 +290,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto,f_auto/v1608314600/portfolio/IMG_4328_uz4xxp.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto,f_auto/v1608314600/portfolio/IMG_4328_uz4xxp.jpg"
                         alt="Cambodia"
                         style={{
                             display: countries.cambodia
@@ -304,7 +304,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.cambodia ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1608314600/portfolio/IMG_4328_uz4xxp.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1608314600/portfolio/IMG_4328_uz4xxp.jpg"
                         alt="Cambodia"
                         name="cambodia"
                     />
@@ -323,7 +323,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto,f_auto/v1599147896/portfolio/IMG_5418_uecow9.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto,f_auto/v1599147896/portfolio/IMG_5418_uecow9.jpg"
                         alt="Vietnam"
                         style={{
                             display: countries.vietnam
@@ -337,7 +337,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.vietnam ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1599147896/portfolio/IMG_5418_uecow9.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1599147896/portfolio/IMG_5418_uecow9.jpg"
                         alt="Vietnam"
                         name="vietnam"
                     />
@@ -356,7 +356,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto,f_auto/v1610729772/portfolio/IMG_6767_x17saw.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto,f_auto/v1610729772/portfolio/IMG_6767_x17saw.jpg"
                         alt="Laos"
                         style={{
                             display: countries.laos ? "none" : "inline-block",
@@ -368,7 +368,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.laos ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610729772/portfolio/IMG_6767_x17saw.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1610729772/portfolio/IMG_6767_x17saw.jpg"
                         alt="Laos"
                         name="laos"
                     />
@@ -387,7 +387,7 @@ function PhotoCarousel() {
                 <Carousel.Item interval={5000}>
                     <img
                         className="w-100 carousel-photo thumb"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_100,q_10,f_auto,f_auto/v1610732035/portfolio/IMG_7171_v4jvv3.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/w_auto,c_scale,h_100,q_10,f_auto,f_auto/v1610732035/portfolio/IMG_7171_v4jvv3.jpg"
                         alt="Thailand"
                         style={{
                             display: countries.thailand
@@ -401,7 +401,7 @@ function PhotoCarousel() {
                         }}
                         style={{ opacity: countries.thailand ? 1 : 0 }}
                         className="d-block w-100 carousel-photo full"
-                        src="https://res.cloudinary.com/de8a23w1z/image/upload/q_auto:best,f_auto/v1610732035/portfolio/IMG_7171_v4jvv3.jpg"
+                        src="https://res.cloudinary.com/de8a23w1z/image/upload/c_fill,w_auto,q_auto:best,f_auto/v1610732035/portfolio/IMG_7171_v4jvv3.jpg"
                         alt="Thailand"
                         name="thailand"
                     />
