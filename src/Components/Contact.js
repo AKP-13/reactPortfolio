@@ -13,10 +13,9 @@ class Contact extends Component {
                 <h1 id="contact-title">Get in touch</h1>
                 <div className="container">
                     <p>
-                        For more information about hiring me, please fill out
-                        the form below and your message will be sent to
-                        futureproof's team. Alternatively, contact me directly
-                        via one of the links below.
+                        Please don't hesitate to get in touch with me via the
+                        form or other social media links below regarding any
+                        bugs, improvements or anything else!
                     </p>
                     <div id="contact-page-div" className="row">
                         <div
