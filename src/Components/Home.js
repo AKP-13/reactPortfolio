@@ -15,11 +15,7 @@ class Home extends Component {
     }
 
     render() {
-        return (
-            <>
-                <h1 id="homeTitle">Alex Peirson</h1>
-            </>
-        );
+        return <h1 id="homeTitle">Alex Peirson</h1>;
     }
 }
 
