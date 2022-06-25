@@ -23,6 +23,7 @@ const Skills = () => {
                     className="iconify"
                     data-icon={icon}
                     data-inline="false"
+                    key={icon}
                 ></span>
             ))}
         </p>
