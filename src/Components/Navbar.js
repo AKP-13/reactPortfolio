@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/navbar.css";
 
+import { NAV_LINKS } from "./helpers";
+
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-light">
@@ -18,51 +20,17 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <NavLink
-                            className="nav-link"
-                            to="/"
-                            activeClassName="current"
-                        >
-                            Home
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink
-                            className="nav-link"
-                            to="/about"
-                            activeClassName="current"
-                        >
-                            About
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink
-                            className="nav-link"
-                            to="/projects"
-                            activeClassName="current"
-                        >
-                            Projects
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink
-                            className="nav-link"
-                            to="/photography"
-                            activeClassName="current"
-                        >
-                            Photography
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink
-                            className="nav-link"
-                            to="/contact"
-                            activeClassName="current"
-                        >
-                            Contact
-                        </NavLink>
-                    </li>
+                    {NAV_LINKS.map((navItem) => (
+                        <li className="nav-item">
+                            <NavLink
+                                className="nav-link"
+                                to={navItem.route}
+                                activeClassName="current"
+                            >
+                                {navItem.name}
+                            </NavLink>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </nav>

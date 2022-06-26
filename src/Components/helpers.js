@@ -368,3 +368,11 @@ export const PHOTOS = [
         ],
     },
 ];
+
+export const NAV_LINKS = [
+    { name: "Home", route: "/" },
+    { name: "About", route: "/about" },
+    { name: "Projects", route: "/projects" },
+    { name: "Photography", route: "/photography" },
+    { name: "Contact", route: "/contact" },
+];
