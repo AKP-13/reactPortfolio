@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     {NAV_LINKS.map((navItem) => (
-                        <li className="nav-item">
+                        <li className="nav-item" key={navItem.name}>
                             <NavLink
                                 className="nav-link"
                                 to={navItem.route}
