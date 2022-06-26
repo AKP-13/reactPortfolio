@@ -13,22 +13,20 @@ const PhotoGrid = () => {
             {PHOTOS.map((col) => {
                 return (
                     <div className="column" key={col.column}>
-                        {col.photosArr.map((photoObj) => {
-                            return (
-                                <LazyLoad
-                                    once={true}
-                                    placeholder={
-                                        <img src={photoObj.lazyLoadPhoto}></img>
-                                    }
-                                    key={photoObj.title}
-                                >
-                                    <img
-                                        src={photoObj.fullResPhoto}
-                                        alt={photoObj.title}
-                                    />
-                                </LazyLoad>
-                            );
-                        })}
+                        {col.photosArr.map((photoObj) => (
+                            <LazyLoad
+                                once={true}
+                                placeholder={
+                                    <img src={photoObj.lazyLoadPhoto}></img>
+                                }
+                                key={photoObj.title}
+                            >
+                                <img
+                                    src={photoObj.fullResPhoto}
+                                    alt={photoObj.title}
+                                />
+                            </LazyLoad>
+                        ))}
                     </div>
                 );
             })}
