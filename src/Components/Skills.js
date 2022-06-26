@@ -6,6 +6,7 @@ const Skills = () => {
         "logos:html-5",
         "logos:css-3",
         "logos:javascript",
+        "logos:typescript-icon",
         "logos:react",
         "logos:redux",
         "logos:python",
