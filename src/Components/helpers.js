@@ -62,6 +62,32 @@ export const PROJECT_CATALOGUE = [
         ],
     },
     {
+        projectLink: "https://glowing-gelato-faf834.netlify.app/",
+        gitHubLink: "https://github.com/AKP-13/jsSelfDrivingCar",
+        imageLink:
+            "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1673207907/portfolio/Screenshot_2023-01-08_at_19.57.49_dbgyb5.png",
+        imageAlt: "Link to JS Self Driving Car App",
+        title: "JS Self Driving Car",
+        techIcons: [
+            "vscode-icons:file-type-html",
+            "vscode-icons:file-type-css",
+            "logos:javascript",
+        ],
+        description:
+            "A code-along from freeCodeCamp's 'Self-Driving Car with JavaScript' course. A car that performs well can be saved and used as the basis for the next iteration of the neural network until you end up with a car that is able to navigate past all of the traffic. ",
+        footerIcons: ["bx:bx-link-external", "logos:github-icon"],
+        contributors: [
+            {
+                name: "Alex Peirson",
+                link: "https://github.com/AKP-13",
+            },
+            {
+                name: "Dr. Radu Mariescu-Istodor",
+                link: "https://radufromfinland.com",
+            },
+        ],
+    },
+    {
         projectLink: "https://www.amatu.co",
         gitHubLink: "https://github.com/AKP-13/amatu",
         imageLink:
