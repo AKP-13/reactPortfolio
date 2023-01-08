@@ -88,7 +88,7 @@ const Projects = () => {
                                     Contributors:{" "}
                                     {project.contributors.map(
                                         (contributor, idx) => (
-                                            <div
+                                            <span
                                                 key={`${project.title}-${contributor.name}`}
                                             >
                                                 <a href={contributor.link}>
@@ -97,8 +97,17 @@ const Projects = () => {
                                                 {idx !==
                                                     project.contributors
                                                         .length -
-                                                        1 && <span>,</span>}
-                                            </div>
+                                                        1 && (
+                                                    <span>
+                                                        {idx !==
+                                                        project.contributors
+                                                            .length -
+                                                            2
+                                                            ? ", "
+                                                            : " & "}
+                                                    </span>
+                                                )}
+                                            </span>
                                         )
                                     )}
                                 </small>
