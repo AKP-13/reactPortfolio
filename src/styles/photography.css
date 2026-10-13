@@ -34,6 +34,31 @@
     width: 100%;
 }
 
+.lazy-photo {
+    position: relative;
+    margin-top: 8px;
+}
+
+.lazy-photo img {
+    display: block;
+    margin-top: 0;
+}
+
+/* The full photo covers the placeholder, so the box height stays the same. */
+.lazy-photo img + img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.lazy-photo img.loaded {
+    opacity: 1;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .column {
