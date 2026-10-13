@@ -79,3 +79,10 @@
     filter: blur(20px);
     transition: visibility 0s linear 0s, opacity 500ms;
 }
+
+/* Bootstrap 5 gives each child of a row the full width. Keep the title and photo on one line. */
+#about-heading > * {
+    width: auto;
+    flex-shrink: 1;
+    padding: 0;
+}
