@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { PHOTOS } from "./helpers";
 
 // Show the full photo once, when the box is near the viewport.
-const LazyPhoto = ({ placeholder, src, alt }) => {
+const LazyPhoto = ({ placeholder, src, alt, width, height }) => {
     const boxRef = useRef(null);
     const [near, setNear] = useState(!("IntersectionObserver" in window));
     const [loaded, setLoaded] = useState(false);
@@ -24,8 +24,12 @@ const LazyPhoto = ({ placeholder, src, alt }) => {
     }, [near]);
 
     return (
-        <div className="lazy-photo" ref={boxRef}>
-            {/* The placeholder keeps the box height. The full photo covers it. */}
+        <div
+            className="lazy-photo"
+            ref={boxRef}
+            style={{ aspectRatio: `${width} / ${height}` }}
+        >
+            {/* The box keeps its height from the start. The full photo covers the placeholder. */}
             <img src={placeholder} alt="" />
             {near && (
                 <img
@@ -55,6 +59,8 @@ const PhotoGrid = () => {
                                 placeholder={photoObj.lazyLoadPhoto}
                                 src={photoObj.fullResPhoto}
                                 alt={photoObj.title}
+                                width={photoObj.width}
+                                height={photoObj.height}
                             />
                         ))}
                     </div>
