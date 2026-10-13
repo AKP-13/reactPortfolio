@@ -1,6 +1,9 @@
 [build]
     command = "npm run build" # how to trigger a build
-    publish = "/config/dist" # what folder to publish 
+    publish = "/config/dist" # what folder to publish
+
+    [build.environment]
+        NODE_VERSION = "22" # the new packages need Node 18 or newer
 
 [[redirects]]
     from = "/*" # redirect any path
