@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import {
     Navbar,
     Home,
@@ -14,13 +14,13 @@ class App extends React.Component {
         return (
             <>
                 <Navbar />
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route path="/photography" component={Photography} />
-                    <Route path="/projects" component={Projects} />
-                    <Route path="/about" component={About} />
-                    <Route path="/contact" component={Contact} />
-                </Switch>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/photography" element={<Photography />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
             </>
         );
     }
