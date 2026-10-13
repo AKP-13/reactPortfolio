@@ -10,8 +10,8 @@ const Navbar = () => {
             <button
                 className="navbar-toggler"
                 type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
                 aria-controls="navbarNav"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
@@ -23,9 +23,10 @@ const Navbar = () => {
                     {NAV_LINKS.map((navItem) => (
                         <li className="nav-item" key={navItem.name}>
                             <NavLink
-                                className="nav-link"
+                                className={({ isActive }) =>
+                                    isActive ? "nav-link current" : "nav-link"
+                                }
                                 to={navItem.route}
-                                activeClassName="current"
                             >
                                 {navItem.name}
                             </NavLink>

@@ -92,3 +92,12 @@ hr {
         font-size: 4rem;
     }
 }
+
+/* Bootstrap 5 underlines links. Bootstrap 4 did it on hover only. */
+.card a {
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}

@@ -214,6 +214,8 @@ export const PHOTOS = [
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_50,q_10/v1600947969/portfolio/IMG_3097_bvtnss.jpg",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600947969/portfolio/IMG_3097_bvtnss.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 title: "Red Sand Dunes (Đồi Hồng) - Mũi Né, Vietnam.",
@@ -221,6 +223,8 @@ export const PHOTOS = [
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_50,q_10,f_auto/v1600948081/portfolio/IMG_4719_wkuazh.jpg",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600948081/portfolio/IMG_4719_wkuazh.jpg",
+                width: 900,
+                height: 1200,
             },
             {
                 title: "Boat on the Curonian Lagoon - Klaipėda, Lithuania.",
@@ -228,6 +232,8 @@ export const PHOTOS = [
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_50,q_10,f_auto/v1599147867/portfolio/IMG_0194_chlcho.jpg",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147867/portfolio/IMG_0194_chlcho.jpg",
+                width: 900,
+                height: 1200,
             },
             {
                 title: "Sunset over the Curonian Lagoon - Klaipėda, Lithuania.",
@@ -235,6 +241,8 @@ export const PHOTOS = [
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_50,q_10,f_auto/v1600948295/portfolio/IMG_0211_ybcrbi.jpg",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600948295/portfolio/IMG_0211_ybcrbi.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 title: "Sand dunes on the Curonian Spit - Klaipėda, Lithuania.",
@@ -242,6 +250,8 @@ export const PHOTOS = [
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_50,q_10,f_auto/v1600948207/portfolio/IMG_0495_pnnij5.jpg",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600948207/portfolio/IMG_0495_pnnij5.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 title: "Forest - Klaipėda, Lithuania.",
@@ -249,6 +259,8 @@ export const PHOTOS = [
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,h_50,q_10,f_auto/v1600948393/portfolio/IMG_0463_bvwult.jpg",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600948393/portfolio/IMG_0463_bvwult.jpg",
+                width: 900,
+                height: 1200,
             },
         ],
     },
@@ -261,6 +273,8 @@ export const PHOTOS = [
                 title: "Wooden path among sand dunes - Klaipėda, Lithuania.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600948397/portfolio/IMG_0471_tiypbm.jpg",
+                width: 900,
+                height: 1200,
             },
             {
                 lazyLoadPhoto:
@@ -268,6 +282,8 @@ export const PHOTOS = [
                 title: "Close up of an ant on a tree - Klaipėda, Lithuania.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147868/portfolio/IMG_0507_lilmdi.jpg",
+                width: 900,
+                height: 1200,
             },
             {
                 lazyLoadPhoto:
@@ -275,6 +291,8 @@ export const PHOTOS = [
                 title: "Sunrise over Mossy Forest - Cameron Highlands, Malaysia.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600948489/portfolio/IMG_0557_icmlg0.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 lazyLoadPhoto:
@@ -282,6 +300,8 @@ export const PHOTOS = [
                 title: "Sauna - Suviekas, Lithuania.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147873/portfolio/IMG_0675_o3oaib.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 lazyLoadPhoto:
@@ -289,6 +309,8 @@ export const PHOTOS = [
                 title: "Sunset - Suviekas, Lithuania.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147869/portfolio/IMG_0770_gqid4o.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 lazyLoadPhoto:
@@ -296,6 +318,8 @@ export const PHOTOS = [
                 title: "Kelingking Beach - Nusa Penida, Bali.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147888/portfolio/IMG_2950_2_kwyhu9.jpg",
+                width: 900,
+                height: 1200,
             },
         ],
     },
@@ -308,6 +332,8 @@ export const PHOTOS = [
                 title: "Bonfire - Suviekas, Lithuania.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147871/portfolio/IMG_0795_vybzjp.jpg",
+                width: 900,
+                height: 1203,
             },
             {
                 lazyLoadPhoto:
@@ -315,6 +341,8 @@ export const PHOTOS = [
                 title: "Up in the clouds - Hải Vân Pass, Vietnam.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147896/portfolio/IMG_5418_uecow9.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 lazyLoadPhoto:
@@ -322,6 +350,8 @@ export const PHOTOS = [
                 title: "Railay Beach - Krabi, Thailand.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147873/portfolio/IMG_1010_rdnedb.jpg",
+                width: 900,
+                height: 1200,
             },
             {
                 lazyLoadPhoto:
@@ -329,6 +359,8 @@ export const PHOTOS = [
                 title: "Indo-Pacific Sergeant Fish - Krabi, Thailand.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147874/portfolio/IMG_1035_iaghuv.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 lazyLoadPhoto:
@@ -336,6 +368,8 @@ export const PHOTOS = [
                 title: "Pink flower - Flower Dome, Singapore.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147874/portfolio/IMG_1670_lvgcga.jpg",
+                width: 900,
+                height: 1200,
             },
             {
                 lazyLoadPhoto:
@@ -343,6 +377,8 @@ export const PHOTOS = [
                 title: "Green Turtle - Gili Air, Indonesia.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147878/portfolio/IMG_4216_2_qmiwqz.jpg",
+                width: 900,
+                height: 672,
             },
         ],
     },
@@ -355,6 +391,8 @@ export const PHOTOS = [
                 title: "Views over Langkawi - Langkawi, Malaysia.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600948783/portfolio/IMG_1179_cdkysl.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 lazyLoadPhoto:
@@ -362,6 +400,8 @@ export const PHOTOS = [
                 title: "Water lily - ArtScience Museum, Singapore.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147890/portfolio/IMG_1849_2_xcjzwe.jpg",
+                width: 900,
+                height: 1200,
             },
             {
                 lazyLoadPhoto:
@@ -369,6 +409,8 @@ export const PHOTOS = [
                 title: "Crystal Universe - ArtScience Museum, Singapore.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600948649/portfolio/IMG_1961_hb8zcz.jpg",
+                width: 900,
+                height: 1200,
             },
             {
                 lazyLoadPhoto:
@@ -376,6 +418,8 @@ export const PHOTOS = [
                 title: "Marina Bay Sands - Gardens by the Bay, Sinagpore.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600948787/portfolio/IMG_1589_x48nqz.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 lazyLoadPhoto:
@@ -383,6 +427,8 @@ export const PHOTOS = [
                 title: "Supertree Grove Trees - Gardens by the Bay, Singapore.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1600948599/portfolio/IMG_2006_sknklq.jpg",
+                width: 900,
+                height: 675,
             },
             {
                 lazyLoadPhoto:
@@ -390,6 +436,8 @@ export const PHOTOS = [
                 title: "Famous Hội An Lanterns, Hội An, Vietnam.",
                 fullResPhoto:
                     "https://res.cloudinary.com/de8a23w1z/image/upload/c_scale,w_900,q_auto:best,f_auto/v1599147884/portfolio/IMG_5017_2_zsvje5.jpg",
+                width: 900,
+                height: 1200,
             },
         ],
     },
