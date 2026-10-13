@@ -15,7 +15,7 @@ const config = {
     mode: "development", // tells webpack to use its built-in optimizations according to the mode
     resolve: {
         // instructions on how to resolve modules
-        modules: [path.resolve("node_modules"), "node_modules"], // tells webpack where to look for node_modules
+        modules: ["node_modules"], // look in each parent folder, so nested versions win
     },
     performance: {
         // notifies you if assets and entry points exceed a specific file limit
