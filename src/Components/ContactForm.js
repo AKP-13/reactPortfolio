@@ -15,7 +15,7 @@ class ContactForm extends Component {
                         method="POST"
                         id="contactForm"
                     >
-                        <div className="form-row">
+                        <div className="row gx-2">
                             <div className="form-group col">
                                 <label htmlFor="firstName">First Name</label>
                                 <input

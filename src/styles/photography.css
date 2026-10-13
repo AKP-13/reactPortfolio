@@ -34,6 +34,32 @@
     width: 100%;
 }
 
+.lazy-photo {
+    position: relative;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+/* The box has a fixed aspect ratio. Both photos fill it. */
+.lazy-photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    object-fit: cover;
+}
+
+.lazy-photo img + img {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.lazy-photo img.loaded {
+    opacity: 1;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .column {
